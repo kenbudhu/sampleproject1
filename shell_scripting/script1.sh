@@ -24,7 +24,9 @@ echo this script is executed by "${X}"
 
 USERS=$(awk -F : '{print $1}' /etc/passwd )
 
-echo "list all members : ${USERS}"
+echo "list all members" 
+
+echo "${USERS}"
 
 
 echo $(ifconfig) 
