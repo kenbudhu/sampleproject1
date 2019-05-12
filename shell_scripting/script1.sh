@@ -27,3 +27,5 @@ USERS=$(awk -F : '{print $1}' /etc/passwd )
 echo "list all members : ${USERS}"
 
 
+echo $(ifconfig) 
+
